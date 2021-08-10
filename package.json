@@ -1,0 +1,38 @@
+{
+  "name": "noroff-feu-api",
+  "version": "1.0.0",
+  "description": "API for Noroff FEU",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "ts-node-dev src/index.ts",
+    "start": "node dist/index.js",
+    "prestart": "npm run build",
+    "build": "tsc",
+    "test": "jest --verbose"
+  },
+  "keywords": [],
+  "author": "Noroff",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^3.23.3",
+    "morgan": "^1.10.0",
+    "ts-jest": "^26.1.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.10",
+    "@types/express": "^4.17.11",
+    "@types/helmet": "0.0.47",
+    "@types/jest": "^26.0.23",
+    "@types/morgan": "^1.9.2",
+    "@types/supertest": "^2.0.11",
+    "@typescript-eslint/eslint-plugin": "^3.10.1",
+    "@typescript-eslint/parser": "^3.10.1",
+    "jest": "^26.6.3",
+    "supertest": "^4.0.2",
+    "ts-node-dev": "^1.1.6",
+    "typescript": "^3.9.9"
+  }
+}
